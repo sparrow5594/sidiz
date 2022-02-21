@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Centra No2';
+    src: url('CentraNo2-Book.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Centra No2 Bold';
+    src: url('CentraNo2-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('NotoSansKR-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR Bold';
+    src: url('NotoSansKR-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}

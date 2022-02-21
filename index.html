@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/swiper/swiper.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>시디즈 쇼핑몰</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="modal">
+            <ul class="modal-con">
+                <li class="modal-txt1">
+                    <span>
+                        본 사이트는 포트폴리오용 사이트로<br>
+                        리소스는 원저작자에게 있습니다.
+                    </span>
+                </li>
+                <li class="modal-txt2">
+                    <span>
+                        HTML5, CSS3, javaScript & jQuery로 제작되었으며,<br>
+                        크롬에 최적화 되어있습니다.
+                    </span>
+                </li>
+                <a href="#" class="modal-close"><span>Close</span></a>
+            </ul>
+        </div>
+
+        <div class="store">
+            <a href="#">
+                <img src="img/store.svg" alt="store fine">
+                <span>매장찾기</span>
+            </a>
+        </div>
+        <div class="chatbot">
+            <a href="#">
+                <img src="img/kakao.svg" alt="store fine">
+                <span>챗봇문의</span>
+            </a>
+        </div>
+        <!-- header -->
+        <header class="header">
+            <nav class="header-top-line">
+                <div class="header-top">
+                    <div class="search">
+                        <input type="text" class="search-box">
+                        <p class="search-text">
+                            SEARCH
+                        </p>
+                    </div>
+                    <ul class="header-gnb">
+                        <li>
+                            <a href="#">로그인</a>
+                        </li>
+                        <li>
+                            <a href="#">회원가입</a>
+                        </li>
+                        <li>
+                            <a href="#">이벤트</a>
+                        </li>
+                        <li class="compare"></li>
+                        <li>
+                            <a href="#">비교하기</a>
+                        </li>
+                        <li class="cart">
+                        </li>
+                        <li>
+                            <a href="#">장바구니</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-bottom-line">
+                <div class="header-bottom">
+                    <a href="#">
+                        <img src="img/logo.png" alt="logo" class="logo">
+                    </a>
+                    <ul class="header-bottom-gnb">
+                        <li class="about">
+                            <span>ABOUT SIDIZ</span>
+                            <ul class="about-menu">
+                                <li>
+                                    <a href="#"><span>BRAND STORY</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>NEWS</span></a>
+                                </li>
+                                <li><span>특별관</span></li>
+                                <li>
+                                    <a href="#"><span>월간윤종신</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>기대요 프로젝트</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>T50 10주년</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="products">
+                            <span>PRODUCTS</span>
+                            <nav class="products-menu">
+                                <div class=products-box>
+                                    <ul class="products-left">
+                                        <li><span>모든 제품보기</span></li>
+                                        <li><span>브랜드 콜라보레이션</span></li>
+                                        <li><a href="#"><span>마블x시디즈 태스크</span></a></li>
+                                        <li><a href="#"><span>디즈니x시디즈 키즈</span></a></li>
+                                        <li><a href="#"><span>사무용의자</span></a></li>
+                                        <li><a href="#"><span>학생용의자</span></a></li>
+                                        <li><a href="#"><span>유아용의자</span></a></li>
+                                        <li><a href="#"><span>중역용의자</span></a></li>
+                                        <li><a href="#"><span>회의실/컨퍼런스의자</span></a></li>
+                                        <li><a href="#"><span>인테리어의자</span></a></li>
+                                        <li><a href="#"><span>스툴/좌식의자</span></a></li>
+                                        <li><a href="#"><span>액세서리</span></a></li>
+                                    </ul>
+                                    <ul class="products-right">
+                                        <li>
+                                            <a href="#">
+                                                <span>SMART FINDER</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>마블</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>디즈니</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>T80</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>T50</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>atti</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>ringo cover</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>T80</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>T55</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>T50 AIR</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>T50</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>T40</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>LINIE</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>TAB SQUARE</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>TAB PLUS</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>ringo</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>mitto</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>ible</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>LINIE</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>T50</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>molti</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>atti</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>PRONARD</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>VESTO</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>CELIOS</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>NUO</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>T50 side</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>T40 side</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>T30 side</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>LOLLY</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>NOOI</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>WINDEN</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>BUTTON</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>SPOON</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>MANE</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>EGA</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>M06</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>WINDEN</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>FUNGUS</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>PILLO</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>OUI</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>M05</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>headrest</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>hanger</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>covercushion</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>caster-glide</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>footrest</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </nav>
+                        </li>
+                        <li class="support">
+                            <span>SUPPORT</span>
+                            <ul class="support-menu">
+                                <li>
+                                    <a href="#">
+                                        <span>FAQ</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>친절상담</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>A/S 신청 </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>A/S 안내</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>매장 찾기</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>품질 보증 서비스</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>제품설명서 다운로드</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>카탈로그 다운로드</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>사업제안</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>대리점 개설문의</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>대량 구매 문의</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+        <section class="visual">
+            <h2>visual</h2>
+            <article class="visual-box">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="swiper-left-box">
+                                <li>
+                                    <p>의자 위 인생은<br>진행중</p>
+                                </li>
+                                <li>
+                                    <p>SIDIZ</p>
+                                </li>
+                                <li>
+                                    <ul class="visual-link-box">
+                                        <li><a href="#"><img src="img/visual1_txt.png" alt="visual1"></a></li>
+                                        <li><a href="#" class="link"></a></li>
+                                        <li><a href="#"><span>브랜드 캠페인 영상<br>바로가기</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <a href="#" class="visual-img bg1"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="swiper-left-box">
+                                <li>
+                                    <p>유니크한 감각의<br>인테리어 체어.</p>
+                                </li>
+                                <li>
+                                    <p>WINDEN</p>
+                                </li>
+                                <li>
+                                    <ul class="visual-link-box">
+                                        <li><a href="#"><img src="img/visual2_txt.png" alt="visual1"></a></li>
+                                        <li><a href="#" class="link"></a></li>
+                                        <li><a href="#"><span>인테리어 체어 윈든<br>자세히 알아보기</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <a href="#" class="visual-img bg2"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="swiper-left-box">
+                                <li>
+                                    <p>앉음마부터 좋은<br>자세로.</p>
+                                </li>
+                                <li>
+                                    <p>molti</p>
+                                </li>
+                                <li>
+                                    <ul class="visual-link-box">
+                                        <li><a href="#"><img src="img/visual3_txt.png" alt="visual3"></a></li>
+                                        <li><a href="#" class="link"></a></li>
+                                        <li><a href="#"><span>하이체어편 조립 및<br>사용법 가이드</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <a href="#" class="visual-img bg3"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="swiper-left-box">
+                                <li>
+                                    <p>바퀴는 빼고<br>집중력은 더하다.</p>
+                                </li>
+                                <li>
+                                    <p>ible</p>
+                                </li>
+                                <li>
+                                    <ul class="visual-link-box">
+                                        <li><a href="#"><img src="img/visual4_txt.png" alt="visual4"></a></li>
+                                        <li><a href="#" class="link"></a></li>
+                                        <li><a href="#"><span>집중력의자 아이블<br>자세히 알아보기</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <a href="#" class="visual-img bg4"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="swiper-left-box">
+                                <li>
+                                    <p>슬기로운 집콕<br>생활템.</p>
+                                </li>
+                                <li>
+                                    <p>T40</p>
+                                </li>
+                                <li>
+                                    <ul class="visual-link-box">
+                                        <li><a href="#"><img src="img/visual5_txt.png" alt="visual5"></a></li>
+                                        <li><a href="#" class="link"></a></li>
+                                        <li><a href="#"><span>농구화와 의자편 : T40<br>영상 바로보기</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <a href="#" class="visual-img bg5"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="swiper-left-box">
+                                <li>
+                                    <p>Fitting your<br>movement.</p>
+                                </li>
+                                <li>
+                                    <p>T80</p>
+                                </li>
+                                <li>
+                                    <ul class="visual-link-box">
+                                        <li><a href="#"><img src="img/visual6_txt.png" alt="visual6"></a></li>
+                                        <li><a href="#" class="link"></a></li>
+                                        <li><a href="#"><span>의자가 인생을 바꾼다<br>ULTIMATE CHAIR, T80</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <a href="#" class="visual-img bg6"></a>
+                        </div>
+                        <div class=swiper-prev></div>
+                        <div class=swiper-next></div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="task-chair">
+            <h2>task</h2>
+            <article class=task-box>
+                <ul class="task-left">
+                    <li>TASK CHAIR</li>
+                    <li><a href="#"><img src="img/t80.jpg" alt="t80 chair"></a></li>
+                    <li><span>T80</span></li>
+                    <li><span>ULTIMATE CHAIR</span></li>
+                    <li><a href="#"><img src="img/tab_plus.jpg" alt="tab plus"></a></li>
+                    <li><span>TAB PLUS</span></li>
+                    <li><span>혼자서도 손쉽게</span></li>
+                </ul>
+                <ul class="task-right">
+                    <li><a href="#"><span style="color: #002bd2">ALL PRODUCTS</span></a></li>
+                    <li><a href="#"><img src="img/t50.jpg" alt="t50 chair"></a></li>
+                    <li><span>T50</span></li>
+                    <li><span>좋은 의자의 기본</span></li>
+                    <li><a href="#"><img src="img/t40.jpg" alt="t40 chair"></a></li>
+                    <li><span>T40</span></li>
+                    <li><span>꼭 필요한 기능만</span></li>
+                </ul>
+            </article>
+        </section>
+        <section class="kids">
+            <h2>kids</h2>
+            <article class="kids-chair">
+                <ul class="kids-left">
+                    <li><span>KIDS CHAIR</span></li>
+                    <li><a href="#"><img src="img/kid1.jpg" alt="kid"></a></li>
+                    <li>molti</li>
+                    <li>앉음마부터 좋은 자세로</li>
+                </ul>
+                <ul class="kids-center">
+                    <li><a href="#"><img src="img/kid2.jpg" alt="atti"></a></li>
+                    <li>atti</li>
+                    <li>플레이 체어</li>
+                </ul>
+                <ul class="kids-right">
+                    <li><a href="#"><span style="color: #002bd2;">ALL PRODUCTS</span></a></li>
+                    <li><a href="#"><img src="img/kid3.jpg" alt="ringo"></a></li>
+                    <li>ringo</li>
+                    <li>생각이 자라는 의자</li>
+                </ul>
+            </article>
+        </section>
+        <section class="interior">
+            <h2>interior</h2>
+            <article class="interior-chair">
+                <ul class="interior-left">
+                    <li><span>INTERIOR CHAIR</span></li>
+                    <li><a href="#"><img src="img/interior1.jpg" alt="oui"></a></li>
+                    <li>OUI</li>
+                    <li>프리미엄 바스툴</li>
+                </ul>
+                <ul class="interior-center">
+                    <li><a href="#"><img src="img/interior2.jpg" alt="spoon"></a></li>
+                    <li>SPOON</li>
+                    <li>내추럴 다이닝의 완성</li>
+                </ul>
+                <ul class="interior-right">
+                    <li><a href="#"><span style="color: #002bd2;">ALL PRODUCTS</span></a></li>
+                    <li><a href="#"><img src="img/interior3.jpeg" alt="ega"></a></li>
+                    <li>EGA</li>
+                    <li>나만을 위한 아늑함</li>
+                </ul>
+            </article>
+        </section>
+        <section class="news">
+            <h2>news</h2>
+            <article class="news-box">
+                <ul class="news-notice">
+                    <li><span>NEWS</span></li>
+                    <li>
+                        <ul class="news-notice-right">
+                            <li><a href="#"><span style="color: #000">시디즈 이용약관 및 개인정보 처리방침 개정 사전안내</span></a></li>
+                            <li><span>2021.03.23</span></li>
+                            <li><a href="#"><span style="color: #555; text-decoration: underline;">전체보기</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="news-official">
+                    <li><a href="#"><img src="img/sidiz_circle.png" alt="sidiz"></a></li>
+                    <li><a href="#"><span>@sidiz_official</span></a></li>
+                </ul>
+                <ul class=instagram>
+                    <li><a href="#"><img src="img/insta1.jpg" alt="insta1"></a></li>
+                    <li><a href="#"><img src="img/insta2.jpg" alt="insta2"></a></li>
+                    <li><a href="#"><img src="img/insta3.jpg" alt="insta3"></a></li>
+                    <li><a href="#"><img src="img/insta4.jpg" alt="insta4"></a></li>
+                    <li><a href="#"><img src="img/insta5.jpg" alt="insta5"></a></li>
+                </ul>
+                <div class="blog">
+                    <span><img src="img/blog.png" alt="blog"></span>
+                    <span>CHAIR CHOICE TIP</span>
+                    <p>나에게 꼭 맞는 퍼스널<br>체어 선택 Tip 3</p>
+                    <span>현대인의 고질병 중 하나인 허리통증. 연령과 성별을 불문하고<br>
+                        나타나는 증상입니다. 직장인들의 경우 10명 중 4명 이상이<br>
+                        허리 통증으로 고통받고 있다고 합니다. 이를 해결할 수 있는...
+                    </span>
+                    <a href="#"><span>LEARN MORE</span></a>
+                    <a href="#"><img src="img/blog.jpg" alt="blog img"></a>
+                </div>
+            </article>
+        </section>
+        <footer class="footer">
+            <h2>footer</h2>
+            <article class="footer-box">
+                <div class="footer-gnb">
+                    <span><img src="img/logo_new.svg" alt="footer logo"></span>
+                    <div>
+                        <span><a href="#"><img src="img/facebookicon.svg" alt="facebook"></a></span>
+                        <span><a href="#"><img src="img/instaIcon.svg" alt="insta"></a></span>
+                        <span><a href="#"><img src="img/blogIcon.svg" alt="blog"></a></span>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <ul class="footer-section1">
+                        <li>
+                            <span>
+                                Copyright (c) 2019 SIDIZ, INC.<br>
+                                All rights reserved.
+                            </span>
+                        </li>
+                        <li><span class="menu-title">(주)시디즈</span></li>
+                        <li>
+                            <span>
+                                대표이사 · 이상배<br>
+                                경기도 평택시 세교산단로 67-20 (세교동)<br>
+                                <br>
+                                사업자등록번호 · 215-87-48121<br>
+                                통신판매신고번호 · 2018-경기평택-0099<br>
+                                부가통신사업신고필증 · 022094<br>
+                                <br>
+                                FAX · 02-3400-4800<br>
+                                개인정보관리책임자 · 이상배 I sidiz_official@fursys.com
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/spclogo.png" alt="spc"></a>
+                            <a href="#"><span>에스크로 가입사실 확인</span></a>
+                        </li>
+                    </ul>
+                    <ul class="footer-section2">
+                        <li><a href="#"><span>이용약관</span></a></li>
+                        <li><span class="menu-title">투자정보</span></li>
+                        <li><a href="#"><span>공고·IR</span></a></li>
+                        <li><span>A/S문의</span></li>
+                        <li><a href="#"><span>챗봇문의</span></a></li>
+                    </ul>
+                    <ul class="footer-section3">
+                        <li><a href="#"><span>개인정보처리방침</span></a></li>
+                        <li><span class="menu-title">ABOUT SIDIZ</span></li>
+                        <li><a href="#"><span>BRAND STORY</span></a></li>
+                        <li><a href="#"><span>NEWS</span></a></li>
+                    </ul>
+                    <ul class="footer-section4">
+                        <li><span class="menu-title">제품</span></li>
+                        <li><a href="#"><span>마블x시디즈 태스크</span></a></li>
+                        <li><a href="#"><span>디즈니x시디즈 키즈</span></a></li>
+                        <li><a href="#"><span>사무용의자</span></a></li>
+                        <li><a href="#"><span>학생용의자</span></a></li>
+                        <li><a href="#"><span>유아용의자</span></a></li>
+                        <li><a href="#"><span>중역용의자</span></a></li>
+                        <li><a href="#"><span>회의실/컨퍼런스의자</span></a></li>
+                        <li><a href="#"><span>인테리어의자</span></a></li>
+                        <li><a href="#"><span>스툴/좌식의자</span></a></li>
+                        <li><a href="#"><span>액세서리</span></a></li>
+                    </ul>
+                    <ul class="footer-section5">
+                        <li><span class="menu-title">고객센터</span></li>
+                        <li><a href="#"><span>FAQ</span></a></li>
+                        <li><a href="#"><span>친절상담</span></a></li>
+                        <li><a href="#"><span>A/S신청</span></a></li>
+                        <li><a href="#"><span>A/S안내</span></a></li>
+                        <li><a href="#"><span>매장 찾기</span></a></li>
+                        <li><a href="#"><span>품질 보증 서비스</span></a></li>
+                        <li><a href="#"><span>제품설명서 다운로드</span></a></li>
+                        <li><a href="#"><span>카탈로그 다운로드</span></a></li>
+                        <li><a href="#"><span>시디즈 서비스</span></a></li>
+                    </ul>
+                    <ul class="footer-section6">
+                        <li><span class="menu-title">친절상담</span></li>
+                        <li><span>1899 - 3176</span></li>
+                        <li><span>평일 | 09:30 - 17:30</span></li>
+                        <li>
+                            <p>*점심시간 | 12:30 - 13:30</p>
+                        </li>
+                        <li>
+                            <span>
+                                토요일 | 09:30 - 12:30<br>
+                                일요일, 공휴일 휴무
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </footer>
+    </div>
+</body>
+
+</html>
